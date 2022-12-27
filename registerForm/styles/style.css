@@ -1,0 +1,119 @@
+/* general styles */
+body , input
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*
+{
+    box-sizing: border-box;
+}
+h2 , p
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* register */
+#register
+{
+    width: 800px;
+    height: 450px;
+    /* background-color: aquamarine; */
+    margin: 200px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px #ccc;
+}
+
+#register .left
+{
+    width: 300px;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    background: linear-gradient(195deg, rgba(0, 151, 167, 1) 0%, rgba(0, 103, 124, 1) 100%);
+    float: left;
+    text-align: center;
+    padding-top: 140px;
+    color: #fff;
+    box-shadow: inset -4px 1px 9px -5px #000;
+}
+#register .left p
+{
+    width: 200px;
+    margin: auto;
+    padding: 15px 0 15px 0;
+}
+#register .left .sign-in
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    transition: 0.25s;
+}
+#register .left .sign-in:hover
+{
+    color: #000;
+    background-color: #fff;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+#register .right
+{
+    width: 500px;
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+    /* background-color: cadetblue; */
+    float: right;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+#register .right h2
+{
+    color: #0097A7;
+    margin-bottom: 30px;
+}
+#register .right .form .input
+{
+    width: 70%;
+    border: none;
+    background-color: #EEEEEE;
+    padding: 15px 15px 15px 40px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+#register .right .form .input:focus
+{
+    outline: none;
+    background-color: #E0E0E0;
+}
+#register .right .form .submit-btn
+{
+    border: none;
+    background-color: #0097A7;
+    margin-top: 20px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    border: 1px solid #0097A7;
+    color: #fff;
+    transition: 0.25s;
+}
+#register .right .form .submit-btn:hover
+{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: 0.25s;
+}
+#register .form .input-logo
+{
+    width: 20px;
+    opacity: 0.5;
+    position: relative;
+    top: 5px;
+    left: 34px;
+}
